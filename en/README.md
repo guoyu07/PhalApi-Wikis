@@ -6,6 +6,8 @@
 PhalApi is a light-weight framework focus on how to develop API faster and simple.
 If you have any questions, please feel free to contact us with email(chanzonghuang@gmail.com), or create an issue (https://github.com/phalapi/phalapi/issues)
   
+> PhalApi is created from China since 2015, and we will try out best to make it clear how to use it smootly to everyone.   
+
 #Install
 + *download lastest stable version from release branch*
 + *PhalApi need PHP >= 5.3.3*
