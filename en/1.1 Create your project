@@ -1,1 +1,79 @@
-todo
+##1.1.1 Create your project
+You can create a project in 3 ways:  
+ + create follow visual installation tutorial
+ + create by cmd phalapi-buildapp
+ + create manually
+  
+##1.1.2 Create follow visual installation tutorial
+Visit /path/to/PhalApi/Public/install on your browser after unpack PhalApi, for example:  
+```
+http://dev.phalapi.com/install/
+```
+Then following the installation step by step:  
+  
+###Step 0: agree to install
+![a pic](http://7xiz2f.com1.z0.glb.clouddn.com/QQ20151024155002.jpg)  
+  
+###Step 1: environment check
+![a pic](http://7xiz2f.com1.z0.glb.clouddn.com/QQ20151024155015.jpg)  
+  
+###Step 2: system configure
+![a pic](http://7xiz2f.com1.z0.glb.clouddn.com/QQ20151024155030.jpg)  
+  
+###Step 3: test api request
+![a pic](http://7xiz2f.com1.z0.glb.clouddn.com/QQ20151024155041.jpg)
+  
+###Step 4: finally
+![a pic](http://7qnay5.com1.z0.glb.clouddn.com/step7_20151012223516.png)
+  
+##1.1.3 Create by cmd phalapi-buildapp
+On linux, we can create a projects in serval seconds. 
+  
+Firstly, we need to
+```
+$ chmod +x /path/to/PhalApi/PhalApi/phalapi-buildapp
+```
+  
+Secondly, 
+```
+$ cd /path/to/PhalApi
+$ ./PhalApi/phalapi-buildapp MyApp
+
+OK!
+
+```
+  
+Then you can see a folder named MyApp at /path/to/PhalApi, it looks like:
+```
+$ cd MyApp/
+$ tree
+.
+├── Api
+│   └── Default.php
+├── Common
+├── Domain
+├── Model
+└── Tests
+    ├── Api
+    │   └── Api_Default_Test.php
+    ├── Common
+    ├── Domain
+    ├── Model
+    ├── phpunit.xml
+    └── test_env.php
+
+9 directories, 4 files
+
+```
+ 
+Meanwhile, here is an entrance under ./Public :
+```
+└── myapp
+    ├── checkApiParams.php
+    └── index.php
+```
+ 
+Finally, you can also visit it by:
+```
+http://dev.phalapi.com/myapp/
+```
