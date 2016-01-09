@@ -5,6 +5,10 @@
 #Welcome to use PhalApi!
 PhalApi is a light-weight framework focus on how to develop API faster and simple.
 If you have any questions, please feel free to contact us with email(chanzonghuang@gmail.com), or create an issue (https://github.com/phalapi/phalapi/issues)
+   
+You can use PhalApi to develop APIs very fastly and easily for Android/iOS/Windowns/Website/H5, but also build microservice/web services/RESTful for big data. 
+Besides, you will explore Agile development, TDD, auto-generation etc. on the way to emergent design.  
+There is more than I can say. Just enjoy it!  
   
 > PhalApi is created from China since 2015, and we will try out best to make it clear how to use it smootly to everyone.   
 
